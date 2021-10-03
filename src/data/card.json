@@ -1,0 +1,74 @@
+[
+    {
+        "img": "course-1.jpg",
+        "cardTitle": "The business Intelligence analyst Course 2022",
+        "cardDescription": "",
+        "price": "Free",
+        "rating": "4.5",
+        "ratingCount": "42",
+        "lesson": "43"
+    },
+    {
+        "img": "course-1.jpg",
+        "cardTitle": "The business Intelligence analyst Course 2022",
+        "cardDescription": "",
+        "price": "$30",
+        "rating": "4.7",
+        "ratingCount": "47",
+        "lesson": "40"
+    },
+    {
+        "img": "course-1.jpg",
+        "cardTitle": "The business Intelligence analyst Course 2022",
+        "cardDescription": "",
+        "price": "Free",
+        "rating": "4.5",
+        "ratingCount": "42",
+        "lesson": "43"
+    },
+    {
+        "img": "course-1.jpg",
+        "cardTitle": "The business Intelligence analyst Course 2022",
+        "cardDescription": "",
+        "price": "$30",
+        "rating": "4.7",
+        "ratingCount": "47",
+        "lesson": "40"
+    },
+    {
+        "img": "course-1.jpg",
+        "cardTitle": "The business Intelligence analyst Course 2022",
+        "cardDescription": "",
+        "price": "Free",
+        "rating": "4.5",
+        "ratingCount": "42",
+        "lesson": "43"
+    },
+    {
+        "img": "course-1.jpg",
+        "cardTitle": "The business Intelligence analyst Course 2022",
+        "cardDescription": "",
+        "price": "$30",
+        "rating": "4.7",
+        "ratingCount": "47",
+        "lesson": "40"
+    },
+    {
+        "img": "course-1.jpg",
+        "cardTitle": "The business Intelligence analyst Course 2022",
+        "cardDescription": "",
+        "price": "Free",
+        "rating": "4.5",
+        "ratingCount": "42",
+        "lesson": "43"
+    },
+    {
+        "img": "course-1.jpg",
+        "cardTitle": "The business Intelligence analyst Course 2022",
+        "cardDescription": "",
+        "price": "$30",
+        "rating": "4.7",
+        "ratingCount": "47",
+        "lesson": "40"
+    }
+]

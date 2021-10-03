@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+}
+
+
+  /* global classes */
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+    padding: 20px 0px;
+}
+.color-primary{
+    color: #03526C;
+}
+.color-secondary{
+    color: #FBB238;
+}
+.btn-custom{
+    background: #03526C;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+    transition: all ease .5s;
+}
+.btn-custom:hover{
+    border: 1px solid #03526C;
+    font-weight: bold;
+    background: #fff;
+    color: #03526C;
+    transition: all ease .5s;
+}
+
+/* -----Card css---- */
+.card{
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all ease .5s;
+}
+.card_image{
+    transition: all ease .5s;
+}
+.card:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: all ease .5s;
+}
+.card:hover .card_image{
+    transform: scale(1.1);
+    transition: all ease .5s;
+}
+.lessonSvg{
+    width: 25px;
+    height: 25px;
+    stroke: #545454;
+}
+.starSvg{
+    width: 25px;
+    height: 25px;
+    fill: #ffb700;
+}
+
+/* ----------- Home Page CSS------------ */
+#home{
+    background: url(../images/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+  /* --------- 404 page css--------  */
+#Page404{
+    width: 60%;
+    height: 90vh;
+    margin: 0 auto;
+    background: url(../images/404.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*----------- footer css ----------*/
+footer {
+    background: #dcdde1;
+    padding: 30px 0;
+}
+footer .footerLogo{
+    width: auto;
+    height: 4rem;
+}
+.footer-ico{
+    list-style: none; 
+    margin-right: 45px;
+}
+.footer-ico img{
+    width: 1.9rem;
+    margin-left: 10px;
+}
+.footer-items ul{
+    margin-right: 15px;
+}
+.footer-items ul li{
+    list-style: none;
+    padding: 5px 0px;
+}
