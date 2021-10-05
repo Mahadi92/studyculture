@@ -24,23 +24,23 @@
     padding: 20px 0px;
 }
 .color-primary{
-    color: #03526C;
+    color: #FFC306;
 }
 .color-secondary{
-    color: #FBB238;
+    color: #636466;
 }
 .btn-custom{
-    background: #03526C;
+    background: #FFC306;
     color: #fff;
     letter-spacing: 2px;
     padding: 5px 15px;
     transition: all ease .5s;
 }
 .btn-custom:hover{
-    border: 1px solid #03526C;
+    border: 1px solid #FFC306;
     font-weight: bold;
     background: #fff;
-    color: #03526C;
+    color: #FFC306;
     transition: all ease .5s;
 }
 
@@ -75,10 +75,11 @@
 }
 
 /* ----------- Home Page CSS------------ */
-#home{
+.homeHeader{
     background: url(../images/home-bg.jpg);
     background-size: cover;
     background-position: center;
+    height: 90vh;
 }
 
 

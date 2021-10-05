@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/studyculture.png';
+import logo from '../images/educavo.png';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light shadow-5-strong">
             <div className="container">
                 <Link to="/" className="navbar-brand">
                     <img src={logo} style={{ height: "3rem", width: "auto" }} alt="" />
@@ -13,12 +13,12 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ms-auto">
+                    <ul className="navbar-nav m-auto pe-5">
                         <li className="nav-item pe-3">
                             <Link to="/" className="nav-link active">Home</Link>
                         </li>
                         <li className="nav-item pe-3">
-                            <Link to="/services" className="nav-link">Services</Link>
+                            <Link to="/services" className="nav-link">All Class</Link>
                         </li>
                         <li className="nav-item pe-3">
                             <Link to="/" className="nav-link">About Us</Link>
